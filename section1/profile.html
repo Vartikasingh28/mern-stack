@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+
+    <style>
+        .col1, .col2{
+            border: 2px solid red;
+        }
+
+        .myrow{
+            display: grid;
+            grid-template-columns: 20% 80%;
+        }
+
+        .col1{
+            padding: 30px;
+        }
+
+        .myimg{
+            width: 100%;
+            border-radius: 100%;
+        }
+
+        .mybtn{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="myrow">
+        <div class="col1">
+
+            <img class="myimg" src="avatar2.jpg" alt="">
+            <div style="text-align: center;">
+                <button class="mybtn">View Github</button>
+            </div>
+            <h1>Column 1</h1>
+        </div>
+        <div class="col2">
+            <h1>Column 2</h1>
+        </div>
+    </div>
+
+</body>
+</html>

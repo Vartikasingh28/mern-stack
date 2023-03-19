@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using css</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link:css that will automatically enter the above line -->
+    <!-- inline has the highest priority -->
+<style>
+p{
+text-align: center;
+color: rgb(226, 17, 17);
+font-size: 30px;
+background-color: orange;
+}
+/* class tag has more priority than name selector */
+.mytag{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 50px;
+}
+#my-unique-tag{
+    color: rgb(83, 20, 209);
+    text-decoration: underline;
+    /* solid means single line */
+    border: 2px solid red;
+    font-style: italic;
+}
+/* id has more priority tham class */
+#mytag2{
+    color: darkgreen;
+}
+
+
+</style>
+
+</head>
+<body>
+    <!-- inline css -->
+    <h1 style="color: red;font-size: 40px; " >Inline css is use to style individual tags only</h1>
+   <h1>Inline css uses style attribute</h1> 
+<!-- Internal css -->
+<p>Internal css is use to style entire page at once</p>
+<p class="mytag" id="mytag2">Internal css is applied using style tag inside head tag</p>
+<h2 class="mytag" >Class selector is use to select element by their class name </h2>
+<h3 id="my-unique-tag">ID Selector is use to select element by their id name</h3>
+<!-- External css -->
+
+<button>Using external css</button>
+</body>
+</html>

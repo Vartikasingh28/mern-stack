@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        margin: 0;
+      }
+
+      nav {
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 5px 100px;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .nav-links p {
+        margin: 0 20px;
+      }
+
+      header {
+        padding: 0 100px;
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+        margin-top: 50px;
+        /* background-image: linear-gradient(45deg, #222222 70%, #3a3939); */
+      }
+
+      .main-img {
+        height: 60vh;
+        display: block;
+        margin: auto;
+      }
+
+      .main-title {
+        font-size: 70px;
+        margin: 0;
+      }
+
+      .hero-content{
+        padding: 0 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <h3>Logo</h3>
+      </div>
+      <div class="nav-links">
+        <p>Home</p>
+        <p>Login</p>
+        <p>Signup</p>
+        <p>Contact</p>
+      </div>
+    </nav>
+
+    <header>
+      <div class="hero-img">
+        <img
+          class="main-img"
+          src="images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-suliman-sallehi-1704488.jpg&fm=jpg"
+          
+          alt=""
+        />
+      </div>
+      <div class="hero-content">
+
+        <i style="font-size: 50px;" class="fa fa-user-circle" aria-hidden="true"></i>
+        <p>Hello I am Vartika</p>
+        <p class="main-title">Full Stack Developer</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit
+          deleniti soluta nisi vel! Reiciendis eius aperiam ut tenetur ab
+          veritatis. Adipisci earum accusamus voluptates suscipit officiis vero
+          corrupti, distinctio accusantium quasi nulla sint consectetur et vitae
+          facilis exercitationem dolore quae eaque, error beatae aperiam fugit
+          quis quibusdam corporis modi.
+        </p>
+        <button> <i class="fa fa-user-circle" aria-hidden="true"></i> ABOUT ME</button>
+      </div>
+    </header>
+  </body>
+</html>

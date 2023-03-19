@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+
+      .mycard{
+        transform-style: preserve-3d;
+        transform: perspective(1000px);
+      }
+
+      .mycard .card-body{
+        transform: translateZ(60px);
+        padding: 50px;
+      }
+
+      .prod-img{
+        height: 300px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 heading">
+
+            <p class="display-3 fw-bold my-title">Professional Camera</p>
+            <p class="h4 my-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, officia?</p>
+            <button class="btn btn-warning mt-4 my-btn">Explore Now</button>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid header-img" src="listing-top.png" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="col-md-11 mx-auto mt-5">
+      <div class="row gx-4">
+        <div class="col-md-3">
+          <div class="card mycard">
+            <div class="prod-img" style="background-image: url('https://www.canon.com.au/-/media/images/canon/products/mirrorless-cameras/eos-r5-temp/tile-image-eosr5-1200x1200.ashx?mw=1200&hash=D6E43B947B880336BEDF0ED8C29FA0BC');">
+
+            </div>
+            <!-- <img
+              class="card-img-top"
+              src="https://www.canon.com.au/-/media/images/canon/products/mirrorless-cameras/eos-r5-temp/tile-image-eosr5-1200x1200.ashx?mw=1200&hash=D6E43B947B880336BEDF0ED8C29FA0BC"
+              alt=""
+            /> -->
+            <div class="card-body">
+
+              <p class="text-muted">Camera</p>
+
+              <span>
+                <i class="fas fa-star"></i>
+                4.6
+              </span>
+              <p>27,654 Reviews</p>
+              
+              <h3>Cannon 1500D DSLR</h3>
+
+              <h1 class="float-end">₹37,490</h1>
+
+              <button class="btn btn-primary mt-2">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mycard">
+            <div class="prod-img" style="background-image: url('https://i.pcmag.com/imagery/roundups/018cwxjHcVMwiaDIpTnZJ8H-54..v1657725637.jpg');"></div>
+            <!-- <img
+              class="card-img-top"
+              src="https://i.pcmag.com/imagery/roundups/018cwxjHcVMwiaDIpTnZJ8H-54..v1657725637.jpg"
+              alt=""
+            /> -->
+            <div class="card-body">
+
+              <p class="text-muted">Camera</p>
+
+              <span>
+                <i class="fas fa-star text-warning"></i>
+                4.6
+              </span>
+              <p>27,654 Reviews</p>
+
+              <h3>Cannon 1500D DSLR something other line</h3>
+
+              <h1 class="float-end">₹37,490</h1>
+
+              <button class="btn btn-primary mt-2">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mycard">
+            <img
+              class="card-img-top"
+              src="https://www.canon.com.au/-/media/images/canon/products/mirrorless-cameras/eos-r5-temp/tile-image-eosr5-1200x1200.ashx?mw=1200&hash=D6E43B947B880336BEDF0ED8C29FA0BC"
+              alt=""
+            />
+            <div class="card-body">
+
+              <p class="text-muted">Camera</p>
+
+              <span>
+                <i class="fas fa-star text-warning"></i>
+                4.6
+              </span>
+              <p>27,654 Reviews</p>
+
+              <h3>Cannon 1500D DSLR</h3>
+
+              <h1 class="float-end">₹37,490</h1>
+
+              <button class="btn btn-primary mt-2">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mycard">
+            <img
+              class="card-img-top"
+              src="https://www.canon.com.au/-/media/images/canon/products/mirrorless-cameras/eos-r5-temp/tile-image-eosr5-1200x1200.ashx?mw=1200&hash=D6E43B947B880336BEDF0ED8C29FA0BC"
+              alt=""
+            />
+            <div class="card-body">
+
+              <p class="text-muted">Camera</p>
+
+              <span>
+                <i class="fas fa-star text-warning"></i>
+                4.6
+              </span>
+              <p>27,654 Reviews</p>
+
+              <h3>Cannon 1500D DSLR</h3>
+
+              <h1 class="float-end">₹37,490</h1>
+
+              <button class="btn btn-primary mt-2">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 heading">
+
+            <p class="display-3 fw-bold my-title">Professional Camera</p>
+            <p class="h4 my-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, officia?</p>
+            <button class="btn btn-warning mt-4 my-btn">Explore Now</button>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid header-img" src="listing-top.png" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" integrity="sha512-RX/OFugt/bkgwRQg4B22KYE79dQhwaPp2IZaA/YyU3GMo/qY7GrXkiG6Dvvwnds6/DefCfwPTgCXnaC6nAgVYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".mycard"), {
+            max: 10,
+            speed: 1000,
+            glare: true,
+            reverse: true,
+            // reset: false,
+            scale: 1.1,
+            // axis: 'y'
+          });
+    </script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        ScrollReveal().reveal('.header-img', { delay: 300, origin: 'bottom', distance: '100px', duration: 2000 });
+        ScrollReveal().reveal('.my-title', { delay: 300, origin: 'right', distance: '50px', reset: true });
+        ScrollReveal().reveal('.my-subtitle', { delay: 300, origin: 'left', distance: '50px', reset: true });
+        ScrollReveal().reveal('.my-btn', { delay: 300, origin: 'bottom', distance: '50px', scale: 3.0 });
+    </script>
+
+
+  </body>
+</html>
